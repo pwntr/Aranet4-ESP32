@@ -260,7 +260,7 @@ bool Aranet4::isAranetRadiation() {
  * @brief Check is is Aranet Radon
  */
 bool Aranet4::isAranetRadon() {
-    getType() == ARANET_RADON;
+    return getType() == ARANET_RADON;
 }
 
 
